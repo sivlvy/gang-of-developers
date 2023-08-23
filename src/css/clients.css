@@ -1,31 +1,155 @@
+/**
+ ===========================||||||||||||||||||============================
+ =============================== MIN 320px ============================
+ ===========================||||||||||||||||||============================
+*/
 .clients {
   background-color: #f7faff;
+  padding: 36px 0;
 }
 .clients-container {
-  width: 100%;
-  max-width: 375px;
+  max-width: 343px;
   margin: 0 auto;
   padding: 0 16px;
 }
 .clients-title {
   font-family: Roboto;
   font-size: 28px;
+  font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 36px;
+  padding-bottom: 30px;
 }
 .clients-card {
-  max-width: 343px;
   background-color: #fff;
   border-radius: 8px;
-  margin: 0 auto;
+  padding: 24px;
+}
+.clients-card-top {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
 }
 .clients-img {
+  width: 48px;
+  height: 48px;
 }
 .clients-subtitle {
+  color: var(--blue-font, #0a224a);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.78;
+  text-transform: uppercase;
 }
 .clients-term {
+  color: var(--blue-font, #0a224a);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
 }
 .clients-text {
+  color: var(--blue-font, #0a224a);
+  font-size: 14px;
+  line-height: 1.43;
+  max-width: 295px;
+}
+.tabl {
+  display: none;
+}
+.desktop {
+  display: none;
+}
+
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 375px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 375px) {
+  .clients-subtitle {
+    font-size: 18px;
+  }
+}
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 768px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 768px) {
+  .tabl {
+    display: block;
+  }
+  .clients-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  .clients-container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+  .clients-title {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.41;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .clients-img {
+    width: 56px;
+    height: 56px;
+  }
+  .clients-subtitle {
+    color: var(--blue-font, #0a224a);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2.25;
+    text-transform: uppercase;
+  }
+  .clients-term {
+    color: var(--blue-font, #0a224a);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .clients-text {
+    color: var(--blue-font, #0a224a);
+    font-size: 18px;
+    line-height: 1.5;
+    width: 296px;
+  }
+}
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 1440px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 1440px) {
+  .desktop {
+    display: block;
+  }
+  .clients-list {
+    gap: 24px;
+  }
+  .clients {
+    padding: 60px;
+  }
+  .clients-container {
+    max-width: 1320px;
+  }
+  .clients-text {
+    width: 360px;
+  }
+  .clients-card {
+    width: 360px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  .clients-text {
+    max-width: 360px;
+  }
 }
