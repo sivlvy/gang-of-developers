@@ -1,3 +1,30 @@
 .container {
    
 }
+
+.price-list {
+}
+
+.price-item {
+
+}
+
+.price-subtitle {
+color: var(--blue-font, #0A224A);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4;
+text-transform: uppercase;
+}
+
+.price-text {
+color: var(--blue-font, #0A224A);
+text-align: right;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5;
+}
