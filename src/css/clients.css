@@ -1,3 +1,31 @@
-.container {
-   
+.clients {
+  background-color: #f7faff;
+}
+.clients-container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.clients-title {
+  font-family: Roboto;
+  font-size: 28px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 36px;
+}
+.clients-card {
+  max-width: 343px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.clients-img {
+}
+.clients-subtitle {
+}
+.clients-term {
+}
+.clients-text {
 }
