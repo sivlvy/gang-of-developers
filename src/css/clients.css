@@ -28,6 +28,7 @@
 }
 .clients-card-top {
   display: flex;
+  align-items: center;
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -41,10 +42,11 @@
   font-weight: 700;
   line-height: 1.78;
   text-transform: uppercase;
+  height: 28px;
+  margin-bottom: 2px;
 }
 .clients-term {
   color: var(--blue-font, #0a224a);
-  text-align: center;
   font-size: 14px;
   line-height: 1.28;
 }
@@ -94,7 +96,6 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 1.41;
-    text-transform: uppercase;
     text-align: center;
     padding-bottom: 30px;
   }
@@ -108,10 +109,11 @@
     font-weight: 700;
     line-height: 2.25;
     text-transform: uppercase;
+    height: 37px;
+    margin-bottom: 4px;
   }
   .clients-term {
     color: var(--blue-font, #0a224a);
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
   }
