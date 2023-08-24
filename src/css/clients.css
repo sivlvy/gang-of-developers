@@ -99,6 +99,9 @@
     text-align: center;
     padding-bottom: 30px;
   }
+  .clients-card-top {
+    margin-bottom: 16px;
+  }
   .clients-img {
     width: 56px;
     height: 56px;
@@ -150,6 +153,9 @@
     background-color: #fff;
     border-radius: 8px;
     padding: 32px;
+  }
+  .clients-card-top {
+    margin-bottom: 14px;
   }
   .clients-text {
     max-width: 360px;
