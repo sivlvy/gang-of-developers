@@ -1,3 +1,82 @@
-.container {
-   
+/**
+ ===========================||||||||||||||||||============================
+ =============================== MIN 320px ============================
+ ===========================||||||||||||||||||============================
+*/
+.products {
+  padding-top: 64px;
+}
+.products-container {
+  max-width: 343px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.products-title {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.products-text {
+  color: var(--blue-font, #0a224a);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+.tabl {
+  display: none;
+}
+.desktop {
+  display: none;
+}
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 768px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 768px) {
+  .tabl {
+    display: block;
+  }
+  .products {
+    padding-top: 100px;
+  }
+  .products-container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+  .products-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  .products-title {
+    font-size: 32px;
+    line-height: 1.41;
+    margin-bottom: 30px;
+  }
+  .products-text {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 1440px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 1440px) {
+  .desktop {
+    display: block;
+  }
+  .products-container {
+    max-width: 1320px;
+  }
+  .products-list {
+    gap: 24px;
+  }
 }

@@ -1,8 +1,7 @@
 .about {
   background-color: ffffff;
 }
-.container {
-}
+
 .about-content {
   background-color: var(--light-blue);
   display: block;
@@ -139,7 +138,7 @@
     margin: 0 auto;
     margin-top: 100px;
   }
-  .container {
+  .about-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
