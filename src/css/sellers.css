@@ -72,6 +72,12 @@
     flex-direction: row;
     justify-content: center;
   }
+  .sellers-item-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 32px;
+  }
   .sellers-small-list {
     gap: 32px;
     flex-direction: row;
@@ -91,9 +97,6 @@
     gap: 0 24px;
   }
   .sellers-item-two {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     gap: 30px 0;
   }
   .sellers-small-list {
