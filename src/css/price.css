@@ -11,7 +11,7 @@
 }
 
 .price {
-  background-color: var(--light-blue);
+  background-color: #FFF;
 }
 
 .price-container {
@@ -29,6 +29,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .price-item:first-child::before,
