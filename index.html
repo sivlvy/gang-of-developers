@@ -2,24 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="/gang-of-developers/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Minimal</title>
     
-    <script type="module" crossorigin src="/gang-of-developers/assets/index-3102113f.js"></script>
-    <link rel="stylesheet" href="/gang-of-developers/assets/index-f27f44a8.css">
+    <script type="module" crossorigin src="/gang-of-developers/assets/index-5806a6a3.js"></script>
+    <link rel="stylesheet" href="/gang-of-developers/assets/index-0c5d6f85.css">
   </head>
   <body>
     <header>
       <section class="header">
-   <div class="container">
-      <nav class="header-navigation">
-         <a href="#" class="header-logo">
-            <svg height="17" width="127" class="icon icon-logo"><use href="../img/icons.svg#icon-logo"></use></svg>
+   <div class="container js-menu-container" id="mobile-menu">
+      <div class="wrapper-menu">
+         <a href="#" class="header-logo header-menu">
+            <svg height="17" width="100" class="icon icon-logo"><use href="../img/icons.svg#icon-logo"></use></svg>
          </a>
+         <button class="close-btn js-close-menu">
+            <svg width="32" height="32" class="icon icon-menu-close"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-menu-close"></use></svg>
+         </button>
+      </div>
+      <nav class="header-navigation">
          <ul class="header-list">
             <li class="header-item">
                <a href="#" class="header-link">About us</a>
@@ -42,7 +47,51 @@
          </ul>
       </nav>
    </div>
+   <div class="header-wrapper">
+      <div class="container header-container">
+         <a href="#" class="header-logo">
+            <svg height="17" width="100" class="icon icon-logo"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-logo"></use></svg>
+         </a>
+         <button
+         class="menu-toggle js-open-menu"
+         aria-expanded="false"
+         aria-controls="mobile-menu"
+            >
+            
+            <svg width="32" height="32" class="icon icon-menu-open"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-menu-open"></use></svg>
+      </button>
+      </div>
+   </div>
 </section>
+<div class="header-desktop">
+   <div class="container container-desktop">
+      <nav class="header-navigation-desktop">
+         <a href="#" class="header-logo">
+            <svg height="17" width="127" class="icon icon-logo"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-logo"></use></svg>
+         </a>
+         <ul class="header-list-desktop">
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">About us</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">Our products</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">Prices</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">Bestsellers</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">Reviews</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">Contacts</a>
+            </li>
+         </ul>
+      </nav>
+   </div>
+</div>
     </header>
     <main>
       
