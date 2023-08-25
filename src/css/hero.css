@@ -60,7 +60,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .hero{
 background-image: url(/img/hero/hero-bg-tab-left.jpg),url(/img/hero/hero-bg-tab-right.jpg);
-
+background-repeat: no-repeat;
+background-size: 308px, 367px;
+background-position: bottom 266px left 32px, bottom 266px left 372px ;
     }
 
 } */
@@ -79,6 +81,8 @@ background-image: url(/img/hero/hero-bg-tab-left.jpg),url(/img/hero/hero-bg-tab-
     }
 
     .hero{
+        max-width: 768px;
+        margin: 0 auto;
         padding-top: 64px;
         padding-bottom: 100px;
         background-color: var(--white);
@@ -120,6 +124,8 @@ background-position: bottom 266px left 32px, bottom 266px left 372px ;
     }
 
     .hero{
+        max-width: 1440px;
+        margin: 0 auto;
         background-image: url(/img/hero/hero-bg-left.jpg), url(/img/hero/hero-bg-center.jpg), url(/img/hero/hero-bg-right.jpg);
         background-repeat: no-repeat;
 background-size: 310px, 648px, 310px;
