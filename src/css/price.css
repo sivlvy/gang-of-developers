@@ -11,7 +11,7 @@
 }
 
 .price {
-  background-color: #FFF;
+
 }
 
 .price-container {
@@ -69,7 +69,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
-  margin: 0px 0px;
+  padding: 0px 0px;
 }
 
 .price-info {
@@ -88,10 +88,30 @@
   height: 1px;
   background-color: #0a224a;
   opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: all 0.3s ease, transform 0.3s ease;
+}
+
+@media screen and (min-width: 768px) {
+ 
+
+  .price {
+      padding: 100px 32px;
+  } 
+
+  .price-subtitle {
+      font-size: 32px;
+      line-height:1.4;
+  }
+
+
+  .price-text {
+      font-size: 18px;
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
+
   .price-item {
     margin: 0 auto;
     max-width: 1096px;
