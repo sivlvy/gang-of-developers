@@ -1,19 +1,19 @@
 .subscription {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 64px;
-    padding-top: 64px;
-}
-@media screen and (min-width: 320px) and (max-width:767px) {
-    .subscribe-container{
+    margin: 0 auto;
+    margin-top: 64px;
     width: 343px;
+}
+/*@media screen and (min-width: 320px) and (max-width:767px) {
+    .subscribe-container{
+    max-width: 343px;
     height: 716px;
     margin: 0 auto;
+    padding: 64px 16px;
     }
 }
 .subscription-div {
     display:inline;
-}
+}*/
 .subscription-title {
 color: var(--blue-font, #0A224A);
 font-family: Roboto;
@@ -23,7 +23,9 @@ font-weight: 400;
 line-height: 1.5;
 text-transform: uppercase;
 text-align: center;
+margin: 0 auto;
 margin-bottom: 20px;
+width: 176px;
 }
 .subscription-p {
 color: var(--blue-font, #0A224A);
@@ -33,6 +35,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 justify-content: center;
+width: 343px;
 margin-bottom: 30px;
 }
 form {
@@ -70,7 +73,7 @@ input:valid + svg {
 }*/
 .subscription-input {
 display: flex;
-width: 343px;
+width: 303px;
 align-items: center;
 padding: 11px 20px;
 gap: 8px;
@@ -138,6 +141,7 @@ outline: transparent;
     font-weight: 400;
     line-height: 24px; 
     margin-bottom: 30px;
+    border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .form-btn:hover,
@@ -145,18 +149,41 @@ outline: transparent;
 .form-btn:active {
     background-color: #061835;
 }
+/*@media screen and (min-width: 320px) {
+    .img-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    }
+}*/
+@media screen and (max-width: 374px) {
+    .subscription {
+    width: 300px;
+    }
+    .subscription-input {
+        width: 273px;
+    }
+    .subscription-p {
+        width: 273px;
+    }
+}
 @media screen and (min-width: 768px) {
     .subscription {
-    padding-top: 100px;
+    /*padding-top: 100px;
     padding-left: 32px;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    padding-right: 200px;*/
+    /* margin: 0 auto; */
+    padding: 0;
+    width: 704px;
     }
 }
 @media screen and (min-width: 768px) {
     .subscribe-container {
-    width: 536px;
+    width: 704px;
     height: 396px;
+    margin: 0 auto;
     }
 }
 @media screen and (min-width: 768px) {
@@ -166,19 +193,22 @@ outline: transparent;
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 30px;
+    width: 424px;
+    margin-left:0 ;
     }
 }
 @media screen and (min-width: 768px) {
     .subscription-p {
+    width: 536px;
     font-size: 18px;
     line-height: 27px;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 20px;
     }
 }
 @media screen and (min-width: 768px) {
     .subscription-input {
-    width: 536px;
+    width: 495px;
     align-items: flex-start;
     font-size: 18px;
     line-height: 27px;
@@ -205,23 +235,36 @@ outline: transparent;
     margin-bottom: 64px;
     }
 }
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
 .img-sub {
-width: 768px;
+max-width: 704px;
 height: 462px;
 }
-}
+}*/
 @media screen and (min-width: 1440px) {
     .subscription {
-    padding-left: 172px;
+    /* padding-left: 172px;
     padding-right: 172px;
-    padding-bottom: 86px;
+    padding-bottom: 86px; */
+    width: 1096px;
+    margin: 0 auto;
+    margin-top: 100px;
     }
 }
 @media screen and (min-width: 1440px) {
     .subscribe-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
     width: 1096px;
     height: 410px;
+    margin: 0 auto;
+    gap: 100px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .subscription-div {
+        display: block;
     }
 }
 @media screen and (min-width: 1440px) {
@@ -280,14 +323,14 @@ height: 462px;
 @media screen and (min-width: 1440px) {
     .img-sub {
     float: right;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     width: 460px;
     height: 410px;
     }
 }
-@media screen and (min-width: 1440px) {
+/*@media screen and (min-width: 1440px) {
     .subscribe-container {
     display: inline-flex;
     align-items: flex-start;
     }
-}
+}*/
