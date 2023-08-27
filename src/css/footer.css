@@ -197,6 +197,7 @@
 
     .footer-address-desktop {
         display: flex;
+        flex-direction: row;
     }
 
     .footer-desktop {
@@ -218,8 +219,16 @@
     }
 
     .footer-address-list {
+        display: flex;
         flex-direction: row;
         margin-bottom: 35px;
+        gap: 0;
+    }
+    
+    .item-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
     }
 
     .footer-paragraf {
@@ -228,5 +237,10 @@
 
     .footer-address-item:first-child {
         margin: 0;
+        margin-right: 87px;
+    }
+
+    .footer-address-item:last-child {
+        margin-left: 82px;
     }
 }
