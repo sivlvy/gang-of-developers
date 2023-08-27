@@ -17,6 +17,7 @@
   max-width: 343px;
   padding: 64px 16px;
   margin: 0 auto;
+  padding-bottom: 0;
 }
 
 .price-list {
@@ -79,8 +80,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .price-container {
+    padding-top: 0;
+  }
   .price {
     padding: 100px 32px;
+    padding-bottom: 0;
   }
 
   .price-subtitle {
