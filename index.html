@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Minimal</title>
     
-    <script type="module" crossorigin src="/gang-of-developers/assets/index-49a8b240.js"></script>
-    <link rel="stylesheet" href="/gang-of-developers/assets/index-207c5aa3.css">
+    <script type="module" crossorigin src="/gang-of-developers/assets/index-32182a2c.js"></script>
+    <link rel="stylesheet" href="/gang-of-developers/assets/index-b6d0c11a.css">
   </head>
   <body>
     <header>
@@ -21,7 +21,7 @@
             <svg height="17" width="100" class="icon icon-logo"><use href="../img/icons.svg#icon-logo"></use></svg>
          </a>
          <button class="close-btn js-close-menu">
-            <svg width="32" height="32" class="icon icon-menu-close"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-menu-close"></use></svg>
+            <svg width="32" height="32" class="icon icon-menu-close"><use href="/gang-of-developers/assets/icons-165414f2.svg#icon-menu-close"></use></svg>
          </button>
       </div>
       <nav class="header-navigation">
@@ -50,7 +50,7 @@
    <div class="header-wrapper">
       <div class="container header-container">
          <a href="#" class="header-logo">
-            <svg height="17" width="100" class="icon icon-logo"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-logo"></use></svg>
+            <svg height="17" width="100" class="icon icon-logo"><use href="/gang-of-developers/assets/icons-165414f2.svg#icon-logo"></use></svg>
          </a>
          <button
          class="menu-toggle js-open-menu"
@@ -58,7 +58,7 @@
          aria-controls="mobile-menu"
             >
             
-            <svg width="32" height="32" class="icon icon-menu-open"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-menu-open"></use></svg>
+            <svg width="32" height="32" class="icon icon-menu-open"><use href="/gang-of-developers/assets/icons-165414f2.svg#icon-menu-open"></use></svg>
       </button>
       </div>
    </div>
@@ -67,7 +67,7 @@
    <div class="container container-desktop">
       <nav class="header-navigation-desktop">
          <a href="#" class="header-logo">
-            <svg height="17" width="127" class="icon icon-logo"><use href="/gang-of-developers/assets/icons-2890c74f.svg#icon-logo"></use></svg>
+            <svg height="17" width="127" class="icon icon-logo"><use href="/gang-of-developers/assets/icons-165414f2.svg#icon-logo"></use></svg>
          </a>
          <ul class="header-list-desktop">
             <li class="header-item-desktop">
@@ -502,7 +502,53 @@
 </section>
 
       
-      
+      <section class="subscription">
+    <div class=" subscribe-container"> 
+      <div class="subscription-div">
+      <h2 class="subscription-title">Newsletter</h2>
+      <p class="subscription-p">Every week we will send you new designs and information about sales.</p>
+      <form class="subscription-form">
+          <label class="subscription-label">
+              <input class="subscription-input" name="user-name"  type="text" id="user-name" placeholder="Name" minlength="2" maxlength="16"/>
+          </label>
+          <label class="subscription-label">
+            <div class="input-icon">
+              <input class="subscription-input error" name="email"  type="email" id="emailInput" placeholder="Email"/>
+              <svg class="input-error hidden" width="24" height="24">
+                <use href="/gang-of-developers/assets/icons-165414f2.svg#icon-input-error"></use>
+              </svg>
+              </div>
+          </label>
+            <div class="subscription-checkbox">
+              <input class="form-checkbox visually-hidden" id="user-subscribe" type="checkbox" value="true" name="user-subscribe"/>
+              <label class="form-label-subscribe" for="user-subscribe">
+                <span class="label-span">
+                  <svg class="form-icon-checkbox" width="10" height="8">
+                    <use href="/gang-of-developers/assets/icons-165414f2.svg#icon-vector-icon"></use>
+                  </svg>
+                </span>
+                Agree to subscribe to the newsletter
+              </label>
+            </div>
+            <button class="form-btn" type="submit">Send</button>
+      </form>
+      </div>
+      <div class="img-sub">
+      <picture>
+        <source
+          srcset="/gang-of-developers/assets/product14des@1x-3b989aa4.jpg 1x, /gang-of-developers/assets/product14des@2x-f272c65b.jpg 2x"
+          media="(min-width:1440px)" width="460" height="410"/>
+        <source
+          srcset="/gang-of-developers/assets/product11tab@1x-817b53b4.jpg 1x, /gang-of-developers/assets/product11tab@2x-51e56966.jpg 2x"
+          media="(min-width:768px)" width="704" height="396"/>
+        <source
+          srcset= "/gang-of-developers/assets/product7mob@1x-528520e0.jpg 1x, /gang-of-developers/assets/product7mob@2x-f8413f27.jpg 2x"
+          media="(min-width:320px)" width="343" height="300" />
+        <img src=" ./img/subscription/product7mob@2x.jpg" alt="sofa with a table" width="343" height="300"/>
+      </picture>
+    </div>
+  </div>
+  </section>
       
     </main>
     <footer>
