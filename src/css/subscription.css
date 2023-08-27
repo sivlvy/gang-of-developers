@@ -250,6 +250,9 @@ height: 462px;
 }
 }*/
 @media screen and (min-width: 1440px) {
+    .subscription-title {
+        padding-top: 0;
+    }
     .subscription {
     /* padding-left: 172px;
     padding-right: 172px;
