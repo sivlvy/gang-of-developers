@@ -1,24 +1,29 @@
 <section class="header">
-   <div class="container">
-      <nav class="header-navigation">
-         <a href="#" class="header-logo">
-            <svg height="17" width="127" class="icon icon-logo"><use href="../img/icons.svg#icon-logo"></use></svg>
+   <div class="container js-menu-container" id="mobile-menu">
+      <div class="wrapper-menu">
+         <a href="#" class="header-logo header-menu">
+            <svg height="17" width="100" class="icon icon-logo"><use href="/img/icons.svg#icon-logo"></use></svg>
          </a>
+         <button class="close-btn js-close-menu">
+            <svg width="32" height="32" class="icon icon-menu-close"><use href="/img/icons.svg#icon-menu-close"></use></svg>
+         </button>
+      </div>
+      <nav class="header-navigation">
          <ul class="header-list">
             <li class="header-item">
-               <a href="#" class="header-link">About us</a>
+               <a href="#about" class="header-link">About us</a>
             </li>
             <li class="header-item">
-               <a href="#" class="header-link">Our products</a>
+               <a href="#products" class="header-link">Our products</a>
             </li>
             <li class="header-item">
-               <a href="#" class="header-link">Prices</a>
+               <a href="#price" class="header-link">Prices</a>
             </li>
             <li class="header-item">
-               <a href="#" class="header-link">Bestsellers</a>
+               <a href="#bestsellers" class="header-link">Bestsellers</a>
             </li>
             <li class="header-item">
-               <a href="#" class="header-link">Reviews</a>
+               <a href="#reviews" class="header-link">Reviews</a>
             </li>
             <li class="header-item">
                <a href="#" class="header-link">Contacts</a>
@@ -26,4 +31,48 @@
          </ul>
       </nav>
    </div>
+   <div class="header-wrapper">
+      <div class="container header-container">
+         <a href="#" class="header-logo">
+            <svg height="17" width="100" class="icon icon-logo"><use href="/img/icons.svg#icon-logo"></use></svg>
+         </a>
+         <button
+         class="menu-toggle js-open-menu"
+         aria-expanded="false"
+         aria-controls="mobile-menu"
+            >
+            
+            <svg width="32" height="32" class="icon icon-menu-open"><use href="/img/icons.svg#icon-menu-open"></use></svg>
+      </button>
+      </div>
+   </div>
 </section>
+<div class="header-desktop">
+   <div class="container container-desktop">
+      <nav class="header-navigation-desktop">
+         <a href="#" class="header-logo">
+            <svg height="17" width="127" class="icon icon-logo"><use href="/img/icons.svg#icon-logo"></use></svg>
+         </a>
+         <ul class="header-list-desktop">
+            <li class="header-item-desktop">
+               <a href="#about" class="header-link-desktop">About us</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#products" class="header-link-desktop">Our products</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#price" class="header-link-desktop">Prices</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#bestsellers" class="header-link-desktop">Bestsellers</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#reviews" class="header-link-desktop">Reviews</a>
+            </li>
+            <li class="header-item-desktop">
+               <a href="#" class="header-link-desktop">Contacts</a>
+            </li>
+         </ul>
+      </nav>
+   </div>
+</div>

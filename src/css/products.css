@@ -1,3 +1,137 @@
-.container {
-   
+/**
+ ===========================||||||||||||||||||============================
+ =============================== MIN 320px ============================
+ ===========================||||||||||||||||||============================
+*/
+.products {
+  padding-top: 64px;
+}
+.products-container {
+  max-width: 343px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.products-title {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.products-text {
+  color: var(--blue-font, #0a224a);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+.tabl {
+  display: none;
+}
+.desktop {
+  display: none;
+}
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover,
+.hvr-float-shadow:focus,
+.hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before,
+.hvr-float-shadow:focus:before,
+.hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 768px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 768px) {
+  .tabl {
+    display: block;
+  }
+  .products {
+    padding-top: 100px;
+  }
+  .products-container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+  .products-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  .products-title {
+    font-size: 32px;
+    line-height: 1.41;
+    margin-bottom: 30px;
+  }
+  .products-text {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+/**
+ ===========================||||||||||||||||||============================
+ ============================ Media MIN 1440px ============================
+ ===========================||||||||||||||||||============================
+*/
+@media screen and (min-width: 1440px) {
+  .desktop {
+    display: block;
+  }
+  .products-container {
+    max-width: 1320px;
+  }
+  .products-list {
+    gap: 24px;
+  }
 }
