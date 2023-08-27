@@ -111,6 +111,7 @@
    height: 5px;
    background-color: black;
    transition: width 0.5s;
+   border-radius: 7px;
 }
 .header-link-desktop:hover:after {
    content: '';
@@ -121,6 +122,7 @@
    bottom: -15px;
    height: 5px;
    background-color: var(--blue-font);
+   border-radius: 7px;
    transition: width 0.5s;
 }
 
