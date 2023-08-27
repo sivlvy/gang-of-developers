@@ -99,6 +99,29 @@
    color: var(--blue-font);
    line-height: 1.5;
    font-size: 18px;
+   position: relative;
+}
+.header-link-desktop:after {
+   content: '';
+   display: block;
+   position: absolute;
+   right: 0;
+   bottom: -15px;
+   width: 0;
+   height: 5px;
+   background-color: black;
+   transition: width 0.5s;
+}
+.header-link-desktop:hover:after {
+   content: '';
+   width: 100%;
+   display: block;
+   position: absolute;
+   left: 0;
+   bottom: -15px;
+   height: 5px;
+   background-color: var(--blue-font);
+   transition: width 0.5s;
 }
 
 @media screen and (min-width: 768px) {
