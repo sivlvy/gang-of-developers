@@ -1,5 +1,5 @@
-.container {
-   padding:0 16px;
+.hero > .container {
+    padding:0 16px;
 }
 
 .hero{
@@ -68,7 +68,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 @media (min-width: 768px){
     
-    .hero>.container {
+    .hero > .container {
         padding: 0 32px;
     }
         
