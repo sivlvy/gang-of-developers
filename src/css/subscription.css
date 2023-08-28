@@ -46,6 +46,7 @@ form {
 }*/
 input:invalid {
     border: 1px solid #E74A3B;
+    background-image: url(/img/icons.svg#icon-input-error);
 }
 .input-icon {
     position: relative;
@@ -58,8 +59,8 @@ input:invalid {
 }
 .input-error {
     position: absolute;
-    left: 525px;
-    top: 12px;
+    right: 20px;
+    top: 13px;
 }
 /*.input-error {
     position: absolute;
@@ -121,7 +122,7 @@ outline: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-checkbox:checked + .form-label-subscribe .label-span {
-    border: none;
+    /* border: none; */
     background-color: #0A224A;
     fill:#FFFFFF;
 }
