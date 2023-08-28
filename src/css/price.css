@@ -73,7 +73,7 @@
   left: 0;
   transform: translateY(-50%);
   width: 0px;
-  height: 1px;
+  height: 2px;
   background-color: #0a224a;
   opacity: 0;
   transition: all 0.3s ease, transform 0.3s ease;
