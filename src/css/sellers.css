@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 
-.sellers-list-item:last-child {
+.sellers-list-item {
   display: none;
 }
 .sellers-item-name {
@@ -86,7 +86,7 @@
   .sellers {
     padding: 100px 32px;
   }
-  .sellers-list-item:last-child {
+  .sellers-list-item {
     display: flex;
   }
   .sellers-title {
