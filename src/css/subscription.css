@@ -119,7 +119,7 @@ outline: transparent;
     height: 24px;
     border: 1px solid var(--dark-grey, #B6B6B6);
     fill: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 450ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-checkbox:checked + .form-label-subscribe .label-span {
     border: none;
@@ -143,7 +143,7 @@ outline: transparent;
     line-height: 1.5; 
     margin-bottom: 30px;
     border: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 450ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .form-btn:hover,
 .form-btn:focus,
