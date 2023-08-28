@@ -1,47 +1,92 @@
 <section id="subscription" class="subscription">
-    <div class=" subscribe-container"> 
-      <div class="subscription-div">
+  <div class="subscribe-container">
+    <div class="subscription-div">
       <h2 class="subscription-title">Newsletter</h2>
-      <p class="subscription-p">Every week we will send you new designs and information about sales.</p>
+      <p class="subscription-p">
+        Every week we will send you new designs and information about sales.
+      </p>
       <form class="subscription-form">
-          <label class="subscription-label">
-              <input class="subscription-input" name="user-name"  type="text" id="user-name" placeholder="Name" minlength="2" maxlength="16"/>
-          </label>
-          <label class="subscription-label">
-            <div class="input-icon">
-              <input class="subscription-input error" name="email"  type="email" id="emailInput" placeholder="Email"/>
-              <svg class="input-error hidden" width="24" height="24">
-                <use href="/img/icons.svg#icon-input-error"></use>
+        <label class="subscription-label">
+          <input
+            class="subscription-input"
+            name="user-name"
+            type="text"
+            id="user-name"
+            placeholder="Name"
+            minlength="2"
+            maxlength="16"
+          />
+        </label>
+        <label class="subscription-label">
+          <div class="input-icon">
+            <input
+              class="subscription-input error"
+              name="email"
+              type="email"
+              id="emailInput"
+              placeholder="Email"
+            />
+            <svg class="input-error hidden" width="24" height="24">
+              <use href="/img/icons.svg#icon-input-error"></use>
+            </svg>
+          </div>
+        </label>
+        <div class="subscription-checkbox">
+          <input
+            class="form-checkbox visually-hidden"
+            id="user-subscribe"
+            type="checkbox"
+            value="true"
+            name="user-subscribe"
+          />
+          <label class="form-label-subscribe" for="user-subscribe">
+            <span class="label-span">
+              <svg class="form-icon-checkbox" width="13" height="13">
+                <use href="/img/icons.svg#icon-vector"></use>
               </svg>
-              </div>
+            </span>
+            Agree to subscribe to the newsletter
           </label>
-            <div class="subscription-checkbox">
-              <input class="form-checkbox visually-hidden" id="user-subscribe" type="checkbox" value="true" name="user-subscribe"/>
-              <label class="form-label-subscribe" for="user-subscribe">
-                <span class="label-span">
-                  <svg class="form-icon-checkbox" width="13" height="13">
-                    <use href="/img/icons.svg#icon-vector"></use>
-                  </svg>
-                </span>
-                Agree to subscribe to the newsletter
-              </label>
-            </div>
-            <button class="form-btn" type="submit">Send</button>
+        </div>
+        <button class="form-btn" type="submit">Send</button>
       </form>
-      </div>
-      <div class="img-sub">
+    </div>
+    <div class="img-sub" data-aos="fade-down" data-aos-duration="1500">
       <picture>
         <source
-          srcset="/img/subscription/product14des@1x.jpg 1x, /img/subscription/product14des@2x.jpg 2x"
-          media="(min-width:1440px)" width="460" height="410"/>
+          srcset="
+            /img/subscription/product14des@1x.jpg 1x,
+            /img/subscription/product14des@2x.jpg 2x
+          "
+          media="(min-width:1440px)"
+          width="460"
+          height="410"
+        />
         <source
-          srcset="/img/subscription/product11tab@1x.jpg 1x,  /img/subscription/product11tab@2x.jpg 2x"
-          media="(min-width:768px)" width="704" height="396"/>
+          srcset="
+            /img/subscription/product11tab@1x.jpg 1x,
+            /img/subscription/product11tab@2x.jpg 2x
+          "
+          media="(min-width:768px)"
+          width="704"
+          height="396"
+        />
         <source
-          srcset= "/img/subscription/product7mob@1x.jpg 1x,  /img/subscription/product7mob@2x.jpg 2x"
-          media="(min-width:320px)" width="343" height="300" />
-        <img src=" ./img/subscription/product7mob@1x.jpg" alt="sofa with a table" width="343" height="300"/>
+          srcset="
+            /img/subscription/product7mob@1x.jpg 1x,
+            /img/subscription/product7mob@2x.jpg 2x
+          "
+          media="(min-width:320px)"
+          width="343"
+          height="300"
+        />
+        <img
+          src=" ./img/subscription/product7mob@1x.jpg"
+          alt="sofa with a table"
+          width="343"
+          height="300"
+        />
       </picture>
     </div>
   </div>
-  </section>
+</section>
