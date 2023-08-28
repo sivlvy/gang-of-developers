@@ -65,15 +65,12 @@ align-items: center;
 /* ------------------------------MEDIA------------------------ */
 
 
-
 @media screen and (max-width: 767px){
 .hero-title{
     max-width: 285px;
 }
 }
     
-
-
 @media (min-width: 768px){
     
     .hero > .container {
