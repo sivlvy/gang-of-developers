@@ -38,6 +38,9 @@
    height: 88px;
    background-color: var(--light-blue);
    align-items: center;
+   position: fixed;
+   width: 100%;
+   z-index: 20;
 }
 .js-menu-container {
    position: relative;
@@ -154,5 +157,10 @@
    }
    .header-desktop {
       display: block;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 20;
    }
 }

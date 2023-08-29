@@ -102,6 +102,7 @@ background-position: bottom 266px left 32px, bottom 266px left 370px ;
         margin-bottom: 410px;
         font-size: 50px;
         width: 648px;
+        margin-top: 64px;
     }
 
     .hero-text{
@@ -137,6 +138,7 @@ background-position: bottom 100px left 60px, bottom 100px left 395px, bottom 293
     .hero-title{
         width: 648px;
         margin-bottom: 246px;
+        margin-top: 64px;
     }
 
 
