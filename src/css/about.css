@@ -1,5 +1,5 @@
 .about {
-  background-color: ffffff;
+  background-color: var(--white);
 }
 
 .about-content {
@@ -19,7 +19,7 @@
 }
 .about-signature:before {
   content: '';
-  background-color: black;
+  background-color: var(--blue-font);
   height: 1px;
   width: 30px;
   display: block;
